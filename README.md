@@ -1,3 +1,7 @@
+# Finish ReadMe
+## Write About
+## Redirect to yt-dlp
+
 # AU-DATALAB
 
 DATALAB – Center for Digital Social Research is an interdisciplinary research center at the School of Communication and Culture. The center is based on the vision that technology and data systems should maintain a focus on people and society, supporting the principles of democracy, human rights and ethics.
