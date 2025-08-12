@@ -6,7 +6,7 @@ DATALAB – Center for Digital Social Research is an interdisciplinary research 
 All research and activities of the center is focusing on three contemporary challenges facing the digital society, that is the challenge of 1) preserving conditions for privacy, autonomy and trust among individuals and groups; 2) sustaining the provision of and access to high-quality content online to safeguard democracy; and 3) maintaining a suitable and meaningful balance between algorithmic and human control in connection with automation.
 
 <p align="center">
-  <img width="460" src="images/Datalab_logo_blue_transparent.png">
+  <img width="460" src="https://github.com/AU-DATALAB/AU-DATALAB/blob/main/images/Datalab_logo_blue_transparent.png">
 </p>
 
 For more information, visit [DATALAB's website](https://datalab.au.dk/).
