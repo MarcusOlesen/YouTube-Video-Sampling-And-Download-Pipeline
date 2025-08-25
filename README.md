@@ -1,6 +1,6 @@
 # Youtube-Download-DATALAB
 
-This repository provides a pipeline for downloading YouTube videos from participants who have donated their data as part of the [Nordic YouTube Data Donation Project](https://norden.diva-portal.org). The project explores how digital platforms shape public discourse, and how user-contributed data can be collected and processed for research under strict ethical and legal safeguards.
+This repository provides a pipeline for downloading YouTube videos from participants who have donated their data as part of the [Nordic YouTube Data Donation Project](https://norden.diva-portal.org/smash/record.jsf?pid=diva2%3A1954799&dswid=9605). The project explores how digital platforms shape public discourse, and how user-contributed data can be collected and processed for research under strict ethical and legal safeguards.
 
 The repository leverages [yt-dlp](https://github.com/yt-dlp/yt-dlp), a robust open-source Python library and CLI tool for downloading videos and associated metadata from YouTube.
 
@@ -12,7 +12,7 @@ The *Youtube-Download-DATALAB* pipeline is designed to:
 - **Standardize and organize** the downloaded media for downstream research.  
 - Ensure **reproducibility**, **transparency**, and alignment with **research ethics**.  
 
-This work is part of DATALAB’s broader mission to support democratic, ethical, and human-centered digital research. For details on the underlying dataset and research framework, see the official project report: [Data Donation Initiative: Nordic YouTube Data Donation Project (PDF)](https://norden.diva-portal.org).
+This work is part of DATALAB’s broader mission to support democratic, ethical, and human-centered digital research. For details on the underlying dataset and research framework, see the official project report: [Data donation as a method for investigating trends and challenges in digital media landscapes at national scale: The Danish population’s use of YouTube as an illustrative case (PDF)](https://norden.diva-portal.org](https://norden.diva-portal.org/smash/get/diva2:1954799/FULLTEXT01.pdf ).
 
 
 ##  Repository Contents
