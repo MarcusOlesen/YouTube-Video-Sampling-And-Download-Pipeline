@@ -12,7 +12,7 @@ The *Youtube-Download-DATALAB* pipeline is designed to:
 - **Standardize and organize** the downloaded media for downstream research.  
 - Ensure **reproducibility**, **transparency**, and alignment with **research ethics**.  
 
-This work is part of DATALAB’s broader mission to support democratic, ethical, and human-centered digital research. For details on the underlying dataset and research framework, see the official project report: [Data donation as a method for investigating trends and challenges in digital media landscapes at national scale: The Danish population’s use of YouTube as an illustrative case (PDF)](https://norden.diva-portal.org](https://norden.diva-portal.org/smash/get/diva2:1954799/FULLTEXT01.pdf).
+This work is part of DATALAB’s broader mission to support democratic, ethical, and human-centered digital research. For details on the underlying dataset and research framework, see the official project report: [Data donation as a method for investigating trends and challenges in digital media landscapes at national scale: The Danish population’s use of YouTube as an illustrative case (PDF)](https://norden.diva-portal.org/smash/get/diva2:1954799/FULLTEXT01.pdf).
 
 
 ##  Repository Contents
