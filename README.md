@@ -4,6 +4,9 @@ This repository provides a reproducible pipeline for sampling, downloading, and 
 
 This pipeline is a companion to the [YouTube Video Processing Pipelines](https://github.com/AU-DATALAB/YouTube-Video-Processing-Pipelines) repository, which provides downstream analysis modules for audio, visual, motion, and linguistic feature extraction.
 
+This is part of a larger project, "YouTube Video Clasification", headed by [David Wegmann](https://orcid.org/0000-0002-7372-9850), under the ARTS Social Media Influence project of DATALAB – Center for Digital Social Research, Aarhus University. The processed YouTube videos are from participants in the [Data donation as a method for investigating trends and challenges in digital media landscapes at national scale](https://norden.diva-portal.org/smash/record.jsf?pid=diva2%3A1954799&dswid=9605) Project. The project investigates how digital platforms influence public discourse and develops ethical, legally compliant methods for collecting and processing user-contributed data.
+
+
 ## Overview
 
 The *Youtube-Download-DATALAB* workflow enables you to:
@@ -85,6 +88,7 @@ All research and activities of the center is focusing on three contemporary chal
 </p>
 
 For more information, visit [DATALAB's website](https://datalab.au.dk/).
+
 
 
 
