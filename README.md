@@ -1,6 +1,32 @@
-# Finish ReadMe
-## Write About
-## Redirect to yt-dlp
+# Youtube-Download-DATALAB
+
+This repository provides a pipeline for downloading YouTube videos from participants who have donated their data as part of the **[Nordic YouTube Data Donation Project](https://norden.diva-portal.org/smash/get/diva2:1954799/FULLTEXT01.pdf)**. The project explores how digital platforms shape public discourse, and how user-contributed data can be collected and processed for research under strict ethical and legal safeguards.  
+
+The repository leverages [`yt-dlp`](https://github.com/yt-dlp/yt-dlp), a robust open-source command-line tool for downloading videos and associated metadata from YouTube.  
+
+---
+
+## About the Project
+
+The **Youtube-Download-DATALAB** pipeline is designed to:
+- Retrieve YouTube videos and metadata from participants in the donated dataset.  
+- Standardize and organize the downloaded media for downstream research.  
+- Ensure reproducibility, transparency, and alignment with research ethics.  
+
+This work is part of DATALAB’s broader mission to support **democratic, ethical, and human-centered digital research**. For details on the underlying dataset and research framework, see the official project report:  
+📄 [Data Donation Initiative: Nordic YouTube Data Donation Project (PDF)](https://norden.diva-portal.org/smash/get/diva2:1954799/FULLTEXT01.pdf)  
+
+---
+
+## Usage
+
+The pipeline builds directly on [`yt-dlp`](https://github.com/yt-dlp/yt-dlp). Please refer to its documentation for installation, advanced options, and troubleshooting.  
+
+Example usage within this project may look like:  
+
+```bash
+yt-dlp -o "%(uploader)s/%(title)s.%(ext)s" <video_url>
+```
 
 # AU-DATALAB
 
