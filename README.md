@@ -31,7 +31,7 @@ For a detailed discussion of the dataset and research framework, see:
 | `Video_Download_Pipeline.ipynb` | Main pipeline: sample, download, and organize videos using `yt-dlp`.                        |
 | `download_utils.py`             | Reusable helper functions for downloading and organizing videos.                            |
 | `environment.yml`               | Conda environment specification for reproducibility.                                        |
-| `ytutils`                       | Utility module that is used in 'Pre_Download.ipynb'                                         |
+| `ytutils`                       | Utility module that is used in `Pre_Download.ipynb`                                         |
 ---
 
 ## Getting Started
@@ -88,6 +88,7 @@ All research and activities of the center is focusing on three contemporary chal
 </p>
 
 For more information, visit [DATALAB's website](https://datalab.au.dk/).
+
 
 
 
