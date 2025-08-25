@@ -6,7 +6,7 @@ This repository provides a reproducible pipeline for downloading and organizing 
 The pipeline uses [yt-dlp](https://github.com/yt-dlp/yt-dlp), an actively maintained open-source tool for downloading YouTube content and metadata.
 
 
-## 🚀 What the Pipeline Does
+## What the Pipeline Does
 
 The *Youtube-Download-DATALAB* workflow is designed to:
 
@@ -20,7 +20,7 @@ For a detailed discussion of the dataset and research framework, see:
 [Data donation as a method for investigating trends and challenges in digital media landscapes at national scale (PDF)](https://norden.diva-portal.org/smash/get/diva2:1954799/FULLTEXT01.pdf).
 
 
-## 📂 Repository Structure
+## Repository Structure
 
 | File / Notebook                 | Description                                                                                 |
 | ------------------------------- | ------------------------------------------------------------------------------------------- |
@@ -31,7 +31,7 @@ For a detailed discussion of the dataset and research framework, see:
 
 ---
 
-## ⚡ Getting Started
+## Getting Started
 
 ### 1. Clone the repository
 
