@@ -2,7 +2,7 @@
 
 This repository provides a reproducible pipeline for sampling, downloading, and organizing YouTube videos based on user watch history data exported as YouTube watch history JSON files. The workflow is designed for researchers aiming to create transparent and ethically sourced datasets for digital media analysis.
 
-This pipeline is a companion to the [YouTube Video Processing Pipelines](https://github.com/MarcusOlesen/YouTube-Video-Processing-Pipelines) repository, which provides downstream analysis modules for audio, visual, motion, and linguistic feature extraction.
+This pipeline is a companion to the [YouTube Video Processing Pipelines](https://github.com/AU-DATALAB/YouTube-Video-Processing-Pipelines) repository, which provides downstream analysis modules for audio, visual, motion, and linguistic feature extraction.
 
 ## Overview
 
@@ -16,7 +16,7 @@ The *Youtube-Download-DATALAB* workflow enables you to:
 The pipeline uses [yt-dlp](https://github.com/yt-dlp/yt-dlp), an actively maintained open-source tool for downloading YouTube content and metadata.
 
 For a detailed discussion of the dataset and research framework, see:  
-[Data donation as a method for investigating trends and challenges in digital media landscapes at national scale (PDF)](https://norden.diva-portal.org/smash/get/diva2:1954799/FULLTEXT01.pdf).
+[Data donation as a method for investigating trends and challenges in digital media landscapes at national scale]([https://norden.diva-portal.org/smash/get/diva2:1954799/FULLTEXT01.pdf](https://norden.diva-portal.org/smash/record.jsf?pid=diva2%3A1954799&dswid=737)).
 
 ---
 
@@ -69,7 +69,7 @@ download_video(video_url, output_dir="downloads/")
 
 ## Integration with Downstream Analysis
 
-After downloading and organizing your YouTube video dataset, you can use the [YouTube Video Processing Pipelines](https://github.com/MarcusOlesen/YouTube-Video-Processing-Pipelines) repository to extract audio, visual, motion, and linguistic features for scientific research. See that repository for detailed instructions on feature extraction and analysis.
+After downloading and organizing your YouTube video dataset, you can use the [YouTube Video Processing Pipelines](https://github.com/AU-DATALAB/YouTube-Video-Processing-Pipelines) repository to extract audio, visual, motion, and linguistic features for scientific research. See that repository for detailed instructions on feature extraction and analysis.
 
 ---
 
@@ -85,4 +85,5 @@ All research and activities of the center is focusing on three contemporary chal
 </p>
 
 For more information, visit [DATALAB's website](https://datalab.au.dk/).
+
 
