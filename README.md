@@ -1,24 +1,27 @@
+# YouTube-Download-DATALAB
 
-# Youtube-Download-DATALAB
+This repository provides a reproducible pipeline for sampling, downloading, and organizing YouTube videos based on user watch history data exported as YouTube watch history JSON files. The workflow is designed for researchers aiming to create transparent and ethically sourced datasets for digital media analysis.
 
-This repository provides a reproducible pipeline for downloading and organizing YouTube videos from participants in the [Nordic YouTube Data Donation Project](https://norden.diva-portal.org/smash/record.jsf?pid=diva2%3A1954799&dswid=9605). The project investigates how digital platforms influence public discourse and develops ethical, legally compliant methods for collecting and processing user-contributed data.
+This pipeline is a companion to the [YouTube Video Processing Pipelines](https://github.com/AU-DATALAB/YouTube-Video-Processing-Pipelines) repository, which provides downstream analysis modules for audio, visual, motion, and linguistic feature extraction.
+
+This is part of a larger project, "YouTube Video Clasification", headed by [David Wegmann](https://orcid.org/0000-0002-7372-9850), under the ARTS Social Media Influence project of DATALAB – Center for Digital Social Research, Aarhus University. The processed YouTube videos are from participants in the [Data donation as a method for investigating trends and challenges in digital media landscapes at national scale](https://norden.diva-portal.org/smash/record.jsf?pid=diva2%3A1954799&dswid=9605) Project. The project investigates how digital platforms influence public discourse and develops ethical, legally compliant methods for collecting and processing user-contributed data.
+
+
+## Overview
+
+The *Youtube-Download-DATALAB* workflow enables you to:
+
+- **Ingest** watch history JSON files from participants.
+- **Clean and standardize** metadata into a consistent dataset.
+- **Sample and download** YouTube videos and related information for research.
+- **Organize outputs** for transparent and reproducible downstream analysis.
 
 The pipeline uses [yt-dlp](https://github.com/yt-dlp/yt-dlp), an actively maintained open-source tool for downloading YouTube content and metadata.
 
+For a detailed discussion of the dataset and research framework, see:  
+[Data donation as a method for investigating trends and challenges in digital media landscapes at national scale](https://norden.diva-portal.org/smash/record.jsf?pid=diva2%3A1954799&dswid=737).
 
-## What the Pipeline Does
-
-The *Youtube-Download-DATALAB* workflow is designed to:
-
-* **Ingest** watch history JSON files from participants.
-* **Clean and standardize** the metadata into a consistent dataset.
-* **Sample and download** YouTube videos and related information for research.
-* **Organize outputs** for downstream analysis in a transparent and reproducible way.
-
-This work forms part of [DATALAB](https://datalab.au.dk/)'s mission to advance democratic, ethical, and human-centered digital research.
-For a detailed discussion of the dataset and research framework, see:
-[Data donation as a method for investigating trends and challenges in digital media landscapes at national scale (PDF)](https://norden.diva-portal.org/smash/get/diva2:1954799/FULLTEXT01.pdf).
-
+---
 
 ## Repository Structure
 
@@ -28,7 +31,7 @@ For a detailed discussion of the dataset and research framework, see:
 | `Video_Download_Pipeline.ipynb` | Main pipeline: sample, download, and organize videos using `yt-dlp`.                        |
 | `download_utils.py`             | Reusable helper functions for downloading and organizing videos.                            |
 | `environment.yml`               | Conda environment specification for reproducibility.                                        |
-
+| `ytutils`                       | Utility module that is used in `Pre_Download.ipynb`                                         |
 ---
 
 ## Getting Started
@@ -54,7 +57,7 @@ conda activate datalab-env
 The workflow is notebook-based:
 
 1. Start with **`Pre_Download.ipynb`** to prepare and clean the watch history dataset.
-2. Move on to **`Video_Download_Pipeline.ipynb`** to sample and download the videos.
+2. Proceed to **`Video_Download_Pipeline.ipynb`** to sample and download the videos.
 
 You can also import the helper functions directly into your own Python workflow:
 
@@ -64,6 +67,14 @@ from download_utils import download_video
 video_url = "https://www.youtube.com/watch?v=example"
 download_video(video_url, output_dir="downloads/")
 ```
+
+---
+
+## Integration with Downstream Analysis
+
+After downloading and organizing your YouTube video dataset, you can use the [YouTube Video Processing Pipelines](https://github.com/AU-DATALAB/YouTube-Video-Processing-Pipelines) repository to extract audio, visual, motion, and linguistic features for scientific research. See that repository for detailed instructions on feature extraction and analysis.
+
+---
 
 # AU-DATALAB
 
@@ -77,3 +88,9 @@ All research and activities of the center is focusing on three contemporary chal
 </p>
 
 For more information, visit [DATALAB's website](https://datalab.au.dk/).
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+pandas
+numpy
+scipy
+PyWavelets
+scikit-image
+yt_dlp
+scenedetect
+opencv-python
+opencv-python mediapipe
+git+https://github.com/openai/whisper.git
+ffmpeg-python
+#tensorflow
+
+
+# Run the following commands from terminal in bash
+# sudo apt update && sudo apt install ffmpeg
+# sudo apt-get update && sudo apt-get install libgl1
