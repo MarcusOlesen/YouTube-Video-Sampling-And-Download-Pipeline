@@ -43,17 +43,11 @@ conda env create -f environment.yml
 conda activate datalab-env
 ```
 
-Alternatively, using **pip**:
-
-```bash
-pip install -r requirements.txt   # if provided
-```
-
 ### 3. Run the pipeline
 
 The repository is structured around Jupyter notebooks:
 
-* Open `Pre_Download.ipynb` to perform setup or initial checks.
+* Open `Pre_Download.ipynb` to perform setup.
 * Run `Video_Download_Pipeline.ipynb` to download videos and metadata.
 
 The helper functions in `download_utils.py` can also be imported directly into a Python workflow:
