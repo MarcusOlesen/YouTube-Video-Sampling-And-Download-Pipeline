@@ -19,10 +19,10 @@ This work is part of DATALAB’s broader mission to support democratic, ethical,
 
 | File / Notebook                | Purpose                                                                 |
 |--------------------------------|-------------------------------------------------------------------------|
-| `Pre_Download.ipynb`           | Notebook for exploratory steps or setup before downloading.             |
-| `Video_Download_Pipeline.ipynb`| Main pipeline notebook for downloading and organizing videos.            |
+| `Pre_Download.ipynb`           | Notebook for accesing the data, as well as setup before downloading.    |
+| `Video_Download_Pipeline.ipynb`| Main pipeline notebook for sampling and downloading the videos.         |
 | `download_utils.py`            | Utility functions supporting the pipeline.                              |
-| `environment.yml`              | Conda environment specification for reproducibility.                    |
+| `environment.yml`              | Environment specification for reproducibility.                          |
 
 
 ##  Getting Started
