@@ -16,7 +16,7 @@ The *Youtube-Download-DATALAB* workflow enables you to:
 The pipeline uses [yt-dlp](https://github.com/yt-dlp/yt-dlp), an actively maintained open-source tool for downloading YouTube content and metadata.
 
 For a detailed discussion of the dataset and research framework, see:  
-[Data donation as a method for investigating trends and challenges in digital media landscapes at national scale]([https://norden.diva-portal.org/smash/get/diva2:1954799/FULLTEXT01.pdf](https://norden.diva-portal.org/smash/record.jsf?pid=diva2%3A1954799&dswid=737)).
+[Data donation as a method for investigating trends and challenges in digital media landscapes at national scale](https://norden.diva-portal.org/smash/record.jsf?pid=diva2%3A1954799&dswid=737).
 
 ---
 
@@ -85,5 +85,6 @@ All research and activities of the center is focusing on three contemporary chal
 </p>
 
 For more information, visit [DATALAB's website](https://datalab.au.dk/).
+
 
 
