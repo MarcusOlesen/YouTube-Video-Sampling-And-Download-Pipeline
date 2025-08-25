@@ -4,7 +4,6 @@ This repository provides a pipeline for downloading YouTube videos from particip
 
 The repository leverages [`yt-dlp`](https://github.com/yt-dlp/yt-dlp), a robust open-source command-line tool for downloading videos and associated metadata from YouTube.  
 
----
 
 ## About the Project
 
@@ -16,7 +15,6 @@ The **Youtube-Download-DATALAB** pipeline is designed to:
 This work is part of DATALAB’s broader mission to support **democratic, ethical, and human-centered digital research**. For details on the underlying dataset and research framework, see the official project report:  
 📄 [Data Donation Initiative: Nordic YouTube Data Donation Project (PDF)](https://norden.diva-portal.org/smash/get/diva2:1954799/FULLTEXT01.pdf)  
 
----
 
 ## Usage
 
