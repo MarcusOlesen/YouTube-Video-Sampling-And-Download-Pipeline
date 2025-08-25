@@ -1,3 +1,23 @@
+"""
+Download Utilities Module for YouTube Video Processing Pipeline
+
+This module provides utility functions for downloading YouTube videos,
+including download status tracking, logging, and file management operations.
+
+Key Features:
+- Video download status checking and verification
+- Download attempt logging and record keeping
+- Participant video count tracking
+- Directory management utilities
+- Video format and codec information extraction
+- Custom logging functionality
+
+The module is designed to work as part of a larger YouTube video sampling and
+download pipeline, providing robust error handling and detailed logging of all
+download attempts and their outcomes.
+
+Dependencies:
+"""
 import pandas as pd
 import yt_dlp as yt
 import subprocess
