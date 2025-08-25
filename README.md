@@ -1,30 +1,70 @@
 # Youtube-Download-DATALAB
 
-This repository provides a pipeline for downloading YouTube videos from participants who have donated their data as part of the **[Nordic YouTube Data Donation Project](https://norden.diva-portal.org/smash/get/diva2:1954799/FULLTEXT01.pdf)**. The project explores how digital platforms shape public discourse, and how user-contributed data can be collected and processed for research under strict ethical and legal safeguards.  
+This repository provides a pipeline for downloading YouTube videos from participants who have donated their data as part of the [Nordic YouTube Data Donation Project](https://norden.diva-portal.org). The project explores how digital platforms shape public discourse, and how user-contributed data can be collected and processed for research under strict ethical and legal safeguards.
 
-The repository leverages [`yt-dlp`](https://github.com/yt-dlp/yt-dlp), a robust open-source command-line tool for downloading videos and associated metadata from YouTube.  
+The repository leverages [yt-dlp](https://github.com/yt-dlp/yt-dlp), a robust open-source Python library and CLI tool for downloading videos and associated metadata from YouTube.
+
+##  About the Project
+
+The *Youtube-Download-DATALAB* pipeline is designed to:
+
+- **Retrieve** YouTube videos and metadata from participants in the donated dataset.  
+- **Standardize and organize** the downloaded media for downstream research.  
+- Ensure **reproducibility**, **transparency**, and alignment with **research ethics**.  
+
+This work is part of DATALAB’s broader mission to support democratic, ethical, and human-centered digital research. For details on the underlying dataset and research framework, see the official project report: [Data Donation Initiative: Nordic YouTube Data Donation Project (PDF)](https://norden.diva-portal.org).
 
 
-## About the Project
+##  Repository Contents
 
-The **Youtube-Download-DATALAB** pipeline is designed to:
-- Retrieve YouTube videos and metadata from participants in the donated dataset.  
-- Standardize and organize the downloaded media for downstream research.  
-- Ensure reproducibility, transparency, and alignment with research ethics.  
+| File / Notebook                | Purpose                                                                 |
+|--------------------------------|-------------------------------------------------------------------------|
+| `Pre_Download.ipynb`           | Notebook for exploratory steps or setup before downloading.             |
+| `Video_Download_Pipeline.ipynb`| Main pipeline notebook for downloading and organizing videos.            |
+| `download_utils.py`            | Utility functions supporting the pipeline.                              |
+| `environment.yml`              | Conda environment specification for reproducibility.                    |
 
-This work is part of DATALAB’s broader mission to support **democratic, ethical, and human-centered digital research**. For details on the underlying dataset and research framework, see the official project report:  
-📄 [Data Donation Initiative: Nordic YouTube Data Donation Project (PDF)](https://norden.diva-portal.org/smash/get/diva2:1954799/FULLTEXT01.pdf)  
 
+##  Getting Started
 
-## Usage
-
-The pipeline builds directly on [`yt-dlp`](https://github.com/yt-dlp/yt-dlp). Please refer to its documentation for installation, advanced options, and troubleshooting.  
-
-Example usage within this project may look like:  
+### 1. Clone the repository
 
 ```bash
-yt-dlp -o "%(uploader)s/%(title)s.%(ext)s" <video_url>
+git clone https://github.com/MarcusOlesen/Youtube-Download-DATALAB.git
+cd Youtube-Download-DATALAB
+````
+
+### 2. Set up the environment
+
+Using **conda**:
+
+```bash
+conda env create -f environment.yml
+conda activate datalab-env
 ```
+
+Alternatively, using **pip**:
+
+```bash
+pip install -r requirements.txt   # if provided
+```
+
+### 3. Run the pipeline
+
+The repository is structured around Jupyter notebooks:
+
+* Open `Pre_Download.ipynb` to perform setup or initial checks.
+* Run `Video_Download_Pipeline.ipynb` to download videos and metadata.
+
+The helper functions in `download_utils.py` can also be imported directly into a Python workflow:
+
+```python
+from download_utils import download_video
+
+video_url = "https://www.youtube.com/watch?v=example"
+download_video(video_url, output_dir="downloads/")
+```
+
 
 # AU-DATALAB
 
